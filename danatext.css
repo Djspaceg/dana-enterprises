@@ -1,0 +1,30 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: black; line-height:135%;margin:0; 
+padding:0; height:100%;}
+A:link {color: #336699; font-weight: normal; text-decoration: underline}
+A:visited {color: #dd4411; font-weight: normal; text-decoration: underline}
+A:active {color: #003366; font-weight: normal; text-decoration: underline}
+
+.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: black; line-height:135%;}
+.textgreen { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: 336666; line-height:135%;}
+.textwhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: white; line-height:135%;}
+.textgray { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #666666; line-height:135%; }
+.big { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; color: black; line-height:135%;}
+.small { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: black; line-height:135%;}
+.smaller { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: black; line-height:135%;}
+
+.tableBorder1 { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; color: #000000; background: #3399cc; line-height:135%; }
+.table1 { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; color: #cc6600; background: #ffeecc; line-height:135%; }
+.table2 { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; color: #336699; background: #ffeecc; line-height:135%; }
+.tableTitle { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; color: #000000; background: #ffeecc; line-height:135%; }
+
+.table1Big { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 13px; color: #cc6600; background: #ffeecc; line-height:135%; }
+.table2Big { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 13px; color: #336699; background: #ffeecc; line-height:135%; }
+.tableTitleBig { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 13px; color: #000000; background: #ffeecc; line-height:135%; }
+
+.home { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: 666666; line-height:135%; }
+
+#footer {color:#FFFFFF}
+#footer a{color:#FFFFFF}
+#footer a:visited{color:#FFFFFF}
+
+
