@@ -1,16 +1,16 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 	color: black;
 	line-height: 135%;
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-color: #ffffff;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-	background-size: 100px 7px;
+	background-color: #4c4c4c;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+	background-size: 30px 30px;
 	position: absolute;
-	width: 100%;
 }
 a:link {
 	color: #336699;
@@ -23,20 +23,19 @@ a:active {
 }
 
 .page {
-	width: 800px;
-	background-color: white;
+	width: 830px;
+	background-color: rgba(0, 128, 128, 0.5);
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	/* border-right: 2px solid black; */
-	margin: 0 auto;
+	border-right: 2px solid black;
 }
 
 header {
-	/* flex: 0 0; */
+	flex: 0 0;
 }
 .headerWrapper {
-	/* display: flex; */
+	display: flex;
 }
 
 header .logo {
@@ -49,22 +48,14 @@ header .logo {
 }
 
 header nav {
-	/* background-color: #336666; */
-	/* flex-grow: 1; */
-	display: flex;
-	justify-content: space-around;
+	background-color: #336666;
+	flex-grow: 1;
 }
 
 header .banner {
 	text-align: center;
-	font-size: 300px;
-	font-family: "HelveticaNeue-CondensedBold";
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #336666;
-	margin-bottom: 20px;
-	position: relative;
-	line-height: 152px;
+	font-size: 200%;
+	line-height: 3em;
 }
 header .banner a:link,
 header .banner a:hover,
@@ -74,58 +65,25 @@ header .banner a:visited {
 	text-decoration: none;
 }
 
-header .banner .subtitle {
-	position: absolute;
-	right: 0.8ex;
-	bottom: 0.8ex;
-	font-size: 30px;
-	line-height: 30px;
-	color: burlywood;
-	/* text-shadow: -2px -2px 0px white, 2px -2px 0px white, 2px 2px 0px white, -2px 2px 0px white; */
-	color: black;
-	background-color: white;
-	padding: 0 0.25ex;
-}
-
 header .tabs {
 	margin: 0;
 	padding: 0;
-	/* text-align: center; */
-	/* display: block; */
-	position: relative;
-	/* margin-right: auto; */
-	/* margin-left: auto; */
-	/* width: 90px; */
-	/* white-space: nowrap; */
-	letter-spacing: 0.05ex;
+	text-align: center;
 }
 
 header .tabs li {
 	display: inline-block;
 	margin: 0 0.5ex;
-	padding: 0 16px;
-	/* border: 1px solid black; */
-	/* border-bottom-color: transparent; */
-	background-color: burlywood;
-	/* border-top-left-radius: 0.5em; */
-	/* border-top-right-radius: 0.5em; */
-	/* box-shadow: 3px 3px 5px black; */
-	line-height: 2em;
-	/* border-radius: 999px; */
+	padding: 0 10px;
+	border: 1px solid black;
+	border-bottom-color: transparent;
+	background-color: #cccc99;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	box-shadow: 3px 3px 5px black;
+	line-height: 1.5em;
 }
 
-header .tabs .title {
-	position: absolute;
-	/* font-size: 300px; */
-	/* line-height: 152px; */
-	/* overflow: hidden; */
-	right: 100%;
-	background-color: transparent;
-	text-transform: uppercase;
-	font-size: 80%;
-	line-height: 32px;
-	color: #666;
-}
 header .tabs li.active {
 	background-color: white;
 }
@@ -136,37 +94,12 @@ header .tabs li a:visited {
 	text-decoration: none;
 }
 
-/* Slant
- * This is a superficial stylistic declaration and therefore doesn't deserve a classname of its own.
- * Instead, we'll call-out every selector that we, the style manager(s), want to use this style.
- */
-header .banner .subtitle,
-header .tabs li {
-	transform: skewX(-16deg);
-}
-
-
 article {
-	/* margin-left: 130px; */
-	padding: 2em;
-	/* background-color: white; */
+	margin-left: 130px;
+	padding: 2em 2em 6em 2em;
+	background-color: white;
 	flex: 1 1 100%;
 	overflow: auto;
-	/* width: 630px; */
-	/* margin: 0 auto; */
-	/* margin-bottom: 5em; */
-}
-
-h1 {
-	color: #336666;
-	text-align: center;
-	font-size: 250%;
-	font-weight: 300;
-	margin-top: 0;
-}
-
-h1 img {
-	vertical-align: middle;
 }
 
 hr {
@@ -180,13 +113,13 @@ footer {
 	background-color: #003333;
 	color: white;
 	padding: 10px 0 10px 0;
-	/* width: 100%; */
-	/* position: fixed; */
-	/* bottom: 0; */
-	/* right: 0; */
-	/* left: 0; */
+	width: 700px;
+	position: fixed;
+	bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
 	text-align: center;
-	/* margin-left: 130px; */
+	margin-left: 130px;
 }
 
 footer a:link,
