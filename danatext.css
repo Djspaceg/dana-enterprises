@@ -12,6 +12,16 @@ body {
 	position: absolute;
 	width: 100%;
 }
+body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(160deg , transparent 50%, #f38821);
+	z-index: -1;
+}
 a:link {
 	color: #336699;
 }
@@ -30,6 +40,7 @@ a:active {
 	height: 100%;
 	/* border-right: 2px solid black; */
 	margin: 0 auto;
+	box-shadow: 0 0 15px 2px #00000022;
 }
 
 header {
@@ -74,6 +85,9 @@ header .banner a:visited {
 	text-decoration: none;
 }
 
+header .banner .title {
+	text-shadow: 3px 0px black;
+}
 header .banner .subtitle {
 	position: absolute;
 	right: 0.8ex;
@@ -106,16 +120,17 @@ header .tabs li {
 	padding: 0 16px;
 	/* border: 1px solid black; */
 	/* border-bottom-color: transparent; */
-	background-color: burlywood;
+	background-color: #f38821;
 	/* border-top-left-radius: 0.5em; */
 	/* border-top-right-radius: 0.5em; */
 	/* box-shadow: 3px 3px 5px black; */
 	line-height: 2em;
-	/* border-radius: 999px; */
+	border-radius: 5px;
+	box-shadow: 3px 3px black;
 }
 
 header .tabs .title {
-	position: absolute;
+	/* position: absolute; */
 	/* font-size: 300px; */
 	/* line-height: 152px; */
 	/* overflow: hidden; */
